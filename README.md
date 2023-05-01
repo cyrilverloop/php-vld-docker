@@ -17,8 +17,8 @@ Add the following lines to your `Dockerfile` depending on your OS.
 ### Alpine :
 
 ```dockerfile
-COPY --from=php-vld:latest /root/vld/modules/vld.so /usr/local/lib/php/extensions/no-debug-non-zts-20220829/
-COPY --from=php-vld:latest /root/vld.ini /usr/local/etc/php/conf.d/ # To activate the extension.
+COPY --from=cyrilverloop/php-vld:latest /root/vld/modules/vld.so /usr/local/lib/php/extensions/no-debug-non-zts-20220829/
+COPY --from=cyrilverloop/php-vld:latest /root/vld.ini /usr/local/etc/php/conf.d/ # To activate the extension.
 ```
 
 
