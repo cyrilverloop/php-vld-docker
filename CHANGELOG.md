@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support for PHP 8.3 on Alpine.
 
 ### Changed
+- Alpine 3.17 => 3.19 for PHP 8.1.
 - Alpine 3.17 => 3.20 for PHP 8.2.
 
 ### Removed
